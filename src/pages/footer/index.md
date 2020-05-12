@@ -2,8 +2,8 @@
 templateKey: footer
 logoImage:
   image: /img/js-wakanda.png
-  imageAlt: JavaScript Wakanda
-  tagline: Your friendly local Wakanda meetup
+  imageAlt: Irreverent DevOps
+  tagline: Online Party Games for the DevOps Irreverent
 socialLinks:
   - image: /img/meetup.svg
     imageAlt: Join us on meetup.com

@@ -1,7 +1,7 @@
 ---
 templateKey: meetup
-title: August 2018
-date: 2018-08-14T23:00:00.000Z
+title: Episode 1 - June 2020
+date: 2020-06-05T01:00:00.000Z
 presenters:
   - image: /img/ramy-kabalan-796973-unsplash.jpg
     name: Fred Champ
@@ -20,9 +20,9 @@ presenters:
       specifically memoization and how it can help speed up frequently used side
       effect-less functions.
 location:
-  mapsLatitude: 64.843779
-  mapsLink: 'https://goo.gl/maps/LLgicn3zGuy'
-  mapsLongitude: -147.718189
-  name: Fairbanks Ice Museum
+  mapsLatitude: .nan
+  mapsLink: ''
+  mapsLongitude: .nan
+  name: Twitch.tv/mattstratton
 ---
 

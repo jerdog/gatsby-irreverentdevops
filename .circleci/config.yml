@@ -22,6 +22,5 @@ jobs:
           pkg-manager: npm
 
 workflows:
-  on_commit:
-    jobs:
-      - build_and_test          
+  jobs:
+    - build_and_test          

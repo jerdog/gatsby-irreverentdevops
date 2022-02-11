@@ -5,23 +5,14 @@ orbs:
   python: circleci/python@2.0.0
 
 jobs:
-  build_and_test:
+  build-and-test:
     docker:
-      - image: cimg/node:17.2.0
+      - image: cimg/node:17.5.0
     steps:
       - checkout
-      - node/install-packages:
-          pkg-manager: npm
-      - run:
-          command: npm install
-          name: Install pkgs
-      - run:
-          command: "sudo ln -s /usr/bin/python3 /usr/bin/python"
-      - node/test:
-          version: '16.10'
-          pkg-manager: npm
-
+      - run: npm install
+      - run: npm test
 workflows:
-  build_and_test:
-    jobs:
-      - build_and_test          
+    build-and-test:
+      jobs:
+        - build-and-test
